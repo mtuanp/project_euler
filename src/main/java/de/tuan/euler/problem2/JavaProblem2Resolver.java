@@ -6,7 +6,7 @@ package de.tuan.euler.problem2;
 public class JavaProblem2Resolver implements Problem2Resolver {
 
     @Override
-    public long sumFibonacciNumbers(long maxNumber) {
+    public long sumEvenFibonacciNumbers(long maxNumber) {
         return recursiveSumEvenFibonacciNumbers(1, 2, maxNumber);
     }
 

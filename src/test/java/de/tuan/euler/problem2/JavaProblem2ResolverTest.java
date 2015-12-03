@@ -14,7 +14,7 @@ public class JavaProblem2ResolverTest {
     @Test
     public void testSumFibonacciNumbers() throws Exception {
         Problem2Resolver resolver = new JavaProblem2Resolver();
-        long result = resolver.sumFibonacciNumbers(100l);
+        long result = resolver.sumEvenFibonacciNumbers(100l);
         assertThat(result, is(equalTo(44l)));
     }
 }

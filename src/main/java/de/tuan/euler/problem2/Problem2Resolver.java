@@ -7,6 +7,6 @@ package de.tuan.euler.problem2;
  */
 public interface Problem2Resolver {
 
-    long sumFibonacciNumbers(long maxNumber);
+    long sumEvenFibonacciNumbers(long maxNumber);
 
 }
